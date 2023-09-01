@@ -13,6 +13,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+    background-color: rgb(255, 218, 117);
 }
 
 form {
@@ -33,12 +34,13 @@ form label {
 }
 
 form input {
-  border: solid 1px #a9a9a9a9;
+  border: solid 2px #469bfd;
   border-radius: 4px;
   flex: 1 0 100px;
   margin-left: 8px;
   padding: 4px;
   width: 100%;
+  background-color: antiquewhite;
 }
 
 form button {
