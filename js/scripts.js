@@ -7,8 +7,7 @@ function arr(){
     const two = "<li>" + document.getElementById("two").value + "</li>";
     const three = "<li>" + document.getElementById("three").value + "</li>";
     const four = "<li>" + document.getElementById("four").value + "</li>"+"</ul>";
-    const input = [one,two,three,four];
-    return input;
+    return one + two + three + four;
 };
 
 generateList.addEventListener("click", list);
