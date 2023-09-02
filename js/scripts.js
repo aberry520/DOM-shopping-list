@@ -2,18 +2,20 @@
 const myList = document.querySelector("#myList");
 const generateList = document.querySelector("#generateList");
 
-generateList.addEventListener("click", arr);
-function arr(event){
-    event.preventDefault();
-    const one = document.getElementById("one").value;
-    const two = document.getElementById("two").value;
-    const three = document.getElementById("three").value;
-    const four = document.getElementById("four").value;
+function arr(){
+    const one ="<ul>"+"<li>" + document.getElementById("one").value + "</li>";
+    const two = "<li>" + document.getElementById("two").value + "</li>";
+    const three = "<li>" + document.getElementById("three").value + "</li>";
+    const four = "<li>" + document.getElementById("four").value + "</li>"+"</ul>";
     const input = [one,two,three,four];
-    console.log(input);
+    return input;
 };
 
-
+generateList.addEventListener("click", list);
+function list(event){
+    event.preventDefault();
+    myList.innerHTML = arr();
+};
 
 //need to get the text input; put it in an array maybe?
 //js needs to create an ls when button is pressed
