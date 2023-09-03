@@ -14,7 +14,6 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
     background-color: rgb(255, 218, 117);
-    /* background-image: url("https://media.istockphoto.com/id/184921412/photo/crumpled-yellow-notepad.jpg?s=612x612&w=0&k=20&c=LUZ2GVQvgtPGhjAHc-ErN2Vn9iXoThUM4_H1kTyTN-4="); */
 }
 
 form {
@@ -74,9 +73,8 @@ section {
   margin: 1rem auto;
   background-image: url("../css/Images/paper.jpg");
   width: 321px;
-  height: 457px;
+  height: fit-content;
   background-size: auto;
-  background-repeat: no-repeat;
 }
 
 
